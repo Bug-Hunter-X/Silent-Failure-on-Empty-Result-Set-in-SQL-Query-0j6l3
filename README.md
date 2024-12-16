@@ -1,0 +1,3 @@
+# Silent Failure on Empty Result Set in SQL Query
+
+This repository demonstrates a potential issue with SQL queries that return empty result sets without explicit error handling.  The `bug.sql` file contains a query that may silently fail if no matching records are found.  The `bugSolution.sql` file presents a solution that handles this scenario more gracefully.  The issue is relevant to developers working with SQL databases, especially when dealing with queries where empty result sets are possible and require specific handling.
